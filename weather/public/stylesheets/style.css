@@ -1,0 +1,90 @@
+body {
+  background-image: url('../images/weather.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #48dbfb;
+ 
+}
+a:hover{
+  color: #2e86de;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/******************* Signin / Signup */
+
+.home {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get_started{
+  margin-bottom: 100px;
+}
+
+
+/******************* weather */
+.navItem{
+  margin-bottom: 10px;
+}
+
+.header {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.title-weather{
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.empty {
+  font-size: 16px;
+  color:#ffc107;
+}
+
+.logout {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.list-group-item{
+ box-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px rgb(67, 67, 202);;
+}
+
+.deletepicto{
+  color: #576574;
+}
+
+/**** update-cities section */
+.update-cities {
+  color: white;
+  margin: 15px;
+}
+
+.fa-sync-alt{
+color: white;
+}
+
+
+/**** Map */
+#worldmap { 
+  height: 500px;  
+}
+
+
+
